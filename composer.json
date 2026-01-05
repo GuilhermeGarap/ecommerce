@@ -11,10 +11,11 @@
         "slim/slim": "~2.6",
         "rain/raintpl": "3.0.0"
     },
-    "autoload": {
-        "psr-4": {
-            "": "vendor\\hcodebr\\php-classes\\src"
-        }
+"autoload": {
+    "psr-4": {
+        "Hcode\\": "vendor/php-classes/src/"
+    }
+
     },
     "config": {
         "audit": {
